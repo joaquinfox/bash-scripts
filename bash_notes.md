@@ -5,12 +5,16 @@
 - $@ value of arguments
 
 ## Exercises
-### Write a simple script that accepts some command line arguments and echoes back some information about the arguments.
+### 1. Write a simple script that accepts some command line arguments and echoes back some information about the arguments.
 ```
 #!/bin/bash
 # A simple script that accepts command line arguments and prints out some information about them
 n1=$1
 echo You provided $# arguments: $@
+
+```
+### 2. Print a random word from a list
+```
 
 
 ```
