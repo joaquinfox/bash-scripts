@@ -1,0 +1,9 @@
+#!/bin/bash
+# Passing arguments to a shell script
+# This is like demo2 but no input is asked for. Instead the argument is passed to the script when called like this ./demo3.sh /etc/group
+
+nlines=$(wc -l < $1)
+echo "There are $nlines lines in $1"
+
+
+# note wc counts number of lines words or characters. the -l flag specifes lines
